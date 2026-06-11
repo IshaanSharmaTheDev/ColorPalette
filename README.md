@@ -1,3 +1,7 @@
+## 🚀 Live Demo: [ColorPalette](https://ishaansharmathedev.github.io/ColorPalette/)
+
+> Try it in your browser: **[https://ishaansharmathedev.github.io/ColorPalette/](https://ishaansharmathedev.github.io/ColorPalette/)**
+
 # ColorPalette
 
 A color tool with harmony generation, shade builder, contrast checker, and saved swatches.
