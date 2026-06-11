@@ -1,0 +1,31 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><title>ColorPalette</title><link rel="stylesheet" href="styles/main.css"/></head>
+<body><div id="app">
+  <header class="topbar"><span class="logo">🎨 ColorPalette</span></header>
+  <div class="main">
+    <div class="left-col">
+      <div id="color-swatch" class="big-swatch">Color</div>
+      <div class="input-row">
+        <input type="color" id="color-picker" value="#4a90d9"/>
+        <input type="text" id="hex-input" value="#4a90d9" maxlength="7" class="hex-input" placeholder="#000000"/>
+        <button id="btn-random">🎲</button>
+        <button id="btn-save">Save</button>
+      </div>
+      <div class="info-card">
+        <div id="rgb-display"></div>
+        <div id="hsl-display"></div>
+        <div id="contrast-display"></div>
+      </div>
+      <div class="saved-section">
+        <div class="section-label">Saved</div>
+        <div id="saved-list" class="saved-list"></div>
+      </div>
+    </div>
+    <div class="right-col">
+      <div class="palette-section"><div class="section-label">Complementary</div><div id="comp-row" class="palette-row"></div></div>
+      <div class="palette-section"><div class="section-label">Triadic</div><div id="tri-row" class="palette-row"></div></div>
+      <div class="palette-section"><div class="section-label">Analogous</div><div id="an-row" class="palette-row"></div></div>
+      <div class="palette-section"><div class="section-label">Shades</div><div id="shades-row" class="palette-row shades-row"></div></div>
+    </div>
+  </div>
+</div>
+<script src="src/color.js"></script><script src="src/app.js"></script></body></html>
